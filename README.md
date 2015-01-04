@@ -6,7 +6,10 @@ A simple console application that converts Wild Divine IOM .dat files to .csv fi
 Usage: IomDatToCsv.exe source-folder target-folder
 
 The parameters are:
-  source-folder - the folder containing the IOM .dat files
-  target-folder - the folder to write the .csv files to
+- source-folder - the folder containing the IOM .dat files
+- target-folder - the folder to write the .csv files to
 
 Example: IomDatToCsv.exe "C:\Source" "C:\Target"
+
+You can download the executable from the following URL:
+http://www.matthewrenze.com/software/iom-dat-to-csv.zip
