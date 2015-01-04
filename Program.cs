@@ -183,13 +183,13 @@ namespace IomDatToCsv
         {
             var help = new StringBuilder()
                 .AppendLine("Converts IOM .dat files to .csv files")
-                .AppendLine("usage: IomDatToCsv.exe source-folder target-folder")
+                .AppendLine("Usage: IomDatToCsv.exe source-folder target-folder")
                 .AppendLine()
                 .AppendLine("The parameters are:")
                 .AppendLine("  source-folder - the folder containing the IOM .dat files")
                 .AppendLine("  target-folder - the folder to write the .csv files to")
                 .AppendLine()
-                .AppendLine("example: IomDatToCsv.exe \"C:\\Source\" \"C:\\Target\"");
+                .AppendLine("Example: IomDatToCsv.exe \"C:\\Source\" \"C:\\Target\"");
 
             Console.WriteLine(help.ToString());
 
